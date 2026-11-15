@@ -6,7 +6,7 @@
 | Arthur Cesar Rodrigues Lima | 2501769 | ADS4AN |
 | Diego Gonçalves Fernandes Faria | _a preencher_ | ADS4AN |
 | Gabriel Vieira de Oliveira| 2404126 | ADS4AN |
-| Kassia Isabelle da Cruz Marques | _a preencher_ | ADS4AM |
+| Kassia Isabelle da Cruz Marques | 2500203 | ADS4AM |
 | Matheus Farias de Queiros | _a preencher_ | ADS4AM |
 
 **Instituição:** Centro Universitário Impacta
