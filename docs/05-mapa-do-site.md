@@ -65,7 +65,7 @@ nap-site/
 └── README.md
 ```
 
-**Nota:** no repositório atual, `style.css` e `main.js` estão na raiz, enquanto o HTML referencia `css/style.css` e `js/main.js`. Isso é um gap técnico documentado em [07-analise-gap.md](07-analise-gap.md).
+**Nota:** a estrutura atual segue este mapa: `css/style.css` e `js/main.js`. O status geral do projeto está em [07-analise-gap.md](07-analise-gap.md).
 
 ## Prototipação (Fase 2)
 

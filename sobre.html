@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Página do Núcleo de Apoio Psicopedagógico (NAP) do Centro Universitário Impacta.">
-<title>Sobre o NAP | NAP Impacta</title>
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sobre o NAP da Impacta: papel do núcleo, proposta e quem pode procurar apoio.">
+  <title>Sobre o NAP | NAP Impacta</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<a class="skip" href="#main">Ir para o conteúdo</a>
-<header>
-<div class="wrap bar">
-<a class="logo" href="index.html">NAP · Impacta</a>
-<button id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
-<nav id="nav" aria-label="Principal">
-<a href="index.html">Início</a>
-<a href="sobre.html" aria-current="page">Sobre o NAP</a>
-<a href="servicos.html">Serviços</a>
-<a href="conteudos.html">Conteúdos</a>
-<a href="contato.html">Contato</a>
-</nav>
-<div role="group" aria-label="Opções de acessibilidade">
-<button id="a-" aria-label="Diminuir tamanho da fonte">A-</button>
-<button id="a+" aria-label="Aumentar tamanho da fonte">A+</button>
-<button id="ct" aria-pressed="false">Contraste</button>
-</div>
-</div>
-</header>
-<main id="main">
-<div class="wrap">
-<h1>Sobre o NAP</h1>
-<p>O NAP apoia os estudantes durante a trajetória acadêmica, principalmente em situações ligadas à aprendizagem, adaptação, inclusão, acessibilidade e a dificuldades que possam interferir na vida acadêmica.</p>
-<h2>Nossa proposta</h2>
-<p>Ser um espaço institucional de acolhimento, orientação e comunicação, contribuindo para uma comunidade acadêmica mais acolhedora, inclusiva e informada.</p>
-<h2>Quem pode procurar o NAP</h2>
-<p>Toda a comunidade acadêmica: estudantes, professores e demais colaboradores.</p>
-<p class="aviso">Texto institucional a ser revisado e validado com a equipe do NAP (Fase 4).</p>
-</div>
-</main>
-<footer>
-<div class="wrap">Núcleo de Apoio Psicopedagógico · Centro Universitário Impacta · Projeto de extensão</div>
-</footer>
-<script src="js/main.js"></script>
+  <a class="skip" href="#main">Ir para o conteúdo</a>
+  <div id="a11y-live" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+  <header>
+    <div class="wrap bar">
+      <a class="logo" href="index.html">NAP · Impacta</a>
+      <button id="menu" type="button" aria-label="Abrir o menu" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav id="nav" aria-label="Principal">
+        <a href="index.html">Início</a>
+        <a href="sobre.html" aria-current="page">Sobre o NAP</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="conteudos.html">Conteúdos</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <div class="a11y-controls" role="group" aria-label="Opções de acessibilidade">
+        <button id="a-" type="button" aria-label="Diminuir tamanho da fonte">A-</button>
+        <button id="a+" type="button" aria-label="Aumentar tamanho da fonte">A+</button>
+        <button id="ct" type="button" aria-pressed="false" aria-label="Ativar ou desativar alto contraste">Contraste</button>
+      </div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="wrap">
+      <h1>Sobre o NAP</h1>
+      <p>O Núcleo de Apoio Psicopedagógico (NAP) apoia a comunidade acadêmica ao longo da trajetória na instituição, em especial em situações ligadas à aprendizagem, adaptação, inclusão, acessibilidade e dificuldades que possam interferir na vida acadêmica.</p>
+      <h2>Nossa proposta</h2>
+      <p>Ser um espaço institucional de acolhimento, orientação e comunicação, contribuindo para uma comunidade mais acolhedora, inclusiva e informada.</p>
+      <h2>Quem pode procurar o NAP</h2>
+      <p>Toda a comunidade acadêmica: estudantes, professores e demais colaboradores.</p>
+      <p class="aviso" role="note">Texto institucional em rascunho. Será revisado e validado com a equipe do NAP antes da publicação final.</p>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap">Núcleo de Apoio Psicopedagógico · Centro Universitário Impacta · Projeto de extensão</div>
+  </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>

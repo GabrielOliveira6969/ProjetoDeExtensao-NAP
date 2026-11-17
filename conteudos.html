@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Página do Núcleo de Apoio Psicopedagógico (NAP) do Centro Universitário Impacta.">
-<title>Conteúdos | NAP Impacta</title>
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Conteúdos e orientações do NAP sobre estudo, adaptação, inclusão e acessibilidade.">
+  <title>Conteúdos | NAP Impacta</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<a class="skip" href="#main">Ir para o conteúdo</a>
-<header>
-<div class="wrap bar">
-<a class="logo" href="index.html">NAP · Impacta</a>
-<button id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
-<nav id="nav" aria-label="Principal">
-<a href="index.html">Início</a>
-<a href="sobre.html">Sobre o NAP</a>
-<a href="servicos.html">Serviços</a>
-<a href="conteudos.html" aria-current="page">Conteúdos</a>
-<a href="contato.html">Contato</a>
-</nav>
-<div role="group" aria-label="Opções de acessibilidade">
-<button id="a-" aria-label="Diminuir tamanho da fonte">A-</button>
-<button id="a+" aria-label="Aumentar tamanho da fonte">A+</button>
-<button id="ct" aria-pressed="false">Contraste</button>
-</div>
-</div>
-</header>
-<main id="main">
-<div class="wrap">
-<h1>Conteúdos e orientações</h1>
-<ul class="cards">
-<li class="card"><h3>Organização dos estudos</h3><p>Defina horários fixos, divida tarefas grandes em partes pequenas e faça pausas curtas.</p></li>
-<li class="card"><h3>Adaptação à vida universitária</h3><p>Conheça os setores da instituição, converse com colegas e peça ajuda cedo.</p></li>
-<li class="card"><h3>Inclusão e acessibilidade</h3><p>Todos têm direito a condições adequadas de aprendizagem. Procure o NAP para conhecer os recursos disponíveis.</p></li>
-</ul>
-<p class="aviso">Conteúdos de exemplo; serão ampliados e revisados com o NAP.</p>
-</div>
-</main>
-<footer>
-<div class="wrap">Núcleo de Apoio Psicopedagógico · Centro Universitário Impacta · Projeto de extensão</div>
-</footer>
-<script src="js/main.js"></script>
+  <a class="skip" href="#main">Ir para o conteúdo</a>
+  <div id="a11y-live" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+  <header>
+    <div class="wrap bar">
+      <a class="logo" href="index.html">NAP · Impacta</a>
+      <button id="menu" type="button" aria-label="Abrir o menu" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav id="nav" aria-label="Principal">
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre o NAP</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="conteudos.html" aria-current="page">Conteúdos</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <div class="a11y-controls" role="group" aria-label="Opções de acessibilidade">
+        <button id="a-" type="button" aria-label="Diminuir tamanho da fonte">A-</button>
+        <button id="a+" type="button" aria-label="Aumentar tamanho da fonte">A+</button>
+        <button id="ct" type="button" aria-pressed="false" aria-label="Ativar ou desativar alto contraste">Contraste</button>
+      </div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="wrap">
+      <h1>Conteúdos e orientações</h1>
+      <p>Materiais educativos curtos para apoiar a vida acadêmica. Estes textos são exemplos e não substituem o atendimento do NAP.</p>
+      <ul class="cards">
+        <li class="card">
+          <h3>Organização dos estudos</h3>
+          <p>Defina horários fixos, divida tarefas grandes em partes menores e faça pausas curtas ao longo do dia.</p>
+        </li>
+        <li class="card">
+          <h3>Adaptação à vida universitária</h3>
+          <p>Conheça os setores da instituição, converse com colegas e peça ajuda assim que surgir uma dificuldade.</p>
+        </li>
+        <li class="card">
+          <h3>Inclusão e acessibilidade</h3>
+          <p>Todas as pessoas têm direito a condições adequadas de aprendizagem. Procure o NAP para conhecer os recursos disponíveis.</p>
+        </li>
+      </ul>
+      <p class="aviso" role="note">Conteúdos de exemplo. Serão ampliados e revisados com a equipe do NAP.</p>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap">Núcleo de Apoio Psicopedagógico · Centro Universitário Impacta · Projeto de extensão</div>
+  </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>

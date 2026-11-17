@@ -1,26 +1,25 @@
-## Equipe
-
-| Nome | RA | Curso |
-|---|---|
-
-| Arthur Cesar Rodrigues Lima | 2501769 | ADS4AN |
-| Diego Gonçalves Fernandes Faria | _a preencher_ | ADS4AN |
-| Gabriel Vieira de Oliveira| 2404126 | ADS4AN |
-| Kassia Isabelle da Cruz Marques | 2500203 | ADS4AM |
-| Matheus Farias de Queiros | _a preencher_ | ADS4AM |
-
-**Instituição:** Centro Universitário Impacta
-**Curso:** Análise e Desenvolvimento de Sistemas (ADS)
-
-## Licença
-
-Projeto acadêmico de extensão, desenvolvido para uso institucional do Centro Universitário Impacta.
-
 # Página Web do Núcleo de Apoio Psicopedagógico (NAP)
 
 Projeto de extensão do **Centro Universitário Impacta** para o desenvolvimento de uma página web institucional, simples e acessível, para o Núcleo de Apoio Psicopedagógico (NAP).
 
 ---
+
+## Equipe
+
+| Nome | RA | Curso |
+|---|---|---|
+| Arthur Cesar Rodrigues Lima | 2501769 | ADS4AN |
+| Diego Gonçalves Fernandes Faria | _a preencher_ | ADS4AN |
+| Gabriel Vieira de Oliveira | 2404126 | ADS4AN |
+| Kassia Isabelle da Cruz Marques | 2500203 | ADS4AM |
+| Matheus Farias de Queiros | _a preencher_ | ADS4AM |
+
+**Instituição:** Centro Universitário Impacta  
+**Curso:** Análise e Desenvolvimento de Sistemas (ADS)
+
+## Licença
+
+Projeto acadêmico de extensão, desenvolvido para uso institucional do Centro Universitário Impacta.
 
 ## Sobre o projeto
 
@@ -91,7 +90,7 @@ Hoje as informações sobre o NAP podem estar dispersas ou de difícil acesso. U
 ## Estrutura de pastas
 
 ```
-nap-site/
+ProjetoDeExtensao-NAP/
 ├── index.html
 ├── sobre.html
 ├── servicos.html
@@ -101,10 +100,13 @@ nap-site/
 │   └── style.css
 ├── js/
 │   └── main.js
-├── img/
+├── docs/
+├── img/          (prevista; ainda sem assets)
 └── README.md
 ```
 
 ## Como executar
 
 Basta abrir o arquivo `index.html` em qualquer navegador. Não há dependências para instalar.
+
+Documentação de requisitos e acompanhamento: pasta [`docs/`](docs/).
