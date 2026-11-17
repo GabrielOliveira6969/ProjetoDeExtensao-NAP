@@ -20,17 +20,17 @@ Plano definido pelo RPE a partir da demanda pública. **5 fases**.
 
 ### Tarefas
 
-- [ ] Realizar reuniões com a equipe do NAP para entender os serviços e informações a serem divulgados
-- [ ] Aplicar questionário com estudantes para identificar necessidades de informação e acessibilidade
-- [ ] Analisar sites de núcleos de apoio similares para referências de estrutura e conteúdo
-- [x] Documentar os requisitos funcionais e não funcionais da página *(esta pasta `docs/`)*
+- [ ] Realizar reuniões com a equipe do NAP para entender os serviços e informações a serem divulgados *(execução real pendente; template em [10-ata-reuniao-nap.md](10-ata-reuniao-nap.md))*
+- [ ] Aplicar questionário com estudantes *(execução real pendente; roteiro em [11-questionario-estudantes.md](11-questionario-estudantes.md))*
+- [ ] Analisar sites de núcleos de apoio similares *(preencher [12-benchmark-sites-similares.md](12-benchmark-sites-similares.md))*
+- [x] Documentar os requisitos funcionais e não funcionais da página *(docs/01–04)*
 
 ### Artefatos esperados
 
-- Atas ou notas de reunião
-- Resultados do questionário
-- Benchmark de sites similares
-- Documentos de requisitos (`docs/01` a `docs/04`)
+- Atas ou notas de reunião — template pronto (`docs/10`)
+- Resultados do questionário — roteiro pronto (`docs/11`)
+- Benchmark de sites similares — template + referências (`docs/12`)
+- Documentos de requisitos (`docs/01` a `docs/04`) — feitos
 
 ---
 
@@ -40,17 +40,15 @@ Plano definido pelo RPE a partir da demanda pública. **5 fases**.
 
 ### Tarefas
 
-- [ ] Definir a arquitetura de informação e o mapa do site
-- [ ] Criar wireframes das principais telas (home, sobre, serviços, contato)
-- [ ] Desenvolver protótipo de alta fidelidade no Figma
-- [ ] Validar o protótipo com a equipe do NAP e com uma amostra de estudantes
+- [x] Definir a arquitetura de informação e o mapa do site *([05-mapa-do-site.md](05-mapa-do-site.md))*
+- [ ] Criar wireframes das principais telas (home, sobre, serviços, contato) *(registrar em [13-design-figma.md](13-design-figma.md))*
+- [ ] Desenvolver protótipo de alta fidelidade no Figma *(link em `docs/13`)*
+- [ ] Validar o protótipo com a equipe do NAP e com uma amostra de estudantes *(registro em `docs/13`)*
 
 ### Artefatos esperados
 
-- Mapa do site (`docs/05-mapa-do-site.md` — versão inicial)
-- Wireframes
-- Link/arquivo do Figma
-- Registro de validação (feedback)
+- Mapa do site (`docs/05`) — feito
+- Wireframes / Figma / validação — pendentes de execução; estrutura em `docs/13`
 
 ---
 
@@ -61,15 +59,16 @@ Plano definido pelo RPE a partir da demanda pública. **5 fases**.
 ### Tarefas
 
 - [x] Configurar o ambiente de desenvolvimento e escolher a plataforma (HTML/CSS/JS estático)
-- [ ] Implementar as páginas e funcionalidades conforme os requisitos *(scaffold parcial existe)*
-- [ ] Aplicar diretrizes de acessibilidade (WCAG) e design responsivo *(parcial)*
-- [ ] Realizar testes de usabilidade e corrigir problemas identificados
+- [x] Implementar as páginas e funcionalidades estruturais conforme os requisitos *(5 páginas + nav + a11y; conteúdo oficial ainda provisório)*
+- [x] Aplicar diretrizes de acessibilidade (WCAG) e design responsivo *(controles no site + [08-checklist-wcag.md](08-checklist-wcag.md))*
+- [ ] Realizar testes de usabilidade e corrigir problemas identificados *(roteiro em [09-testes-usabilidade.md](09-testes-usabilidade.md); sessões a preencher pela equipe)*
 
 ### Artefatos esperados
 
-- Site estático funcional (CSS/JS carregando corretamente)
-- Checklist WCAG preenchido
-- Relato de testes de usabilidade
+- Site estático funcional (CSS/JS em `css/` e `js/`) — feito
+- Checklist WCAG — criado (`docs/08`); verificação humana a completar
+- Relato de testes de usabilidade — template (`docs/09`); sessões pendentes
+- Pasta `img/` preparada (README; sem assets de marca ainda)
 
 ---
 
@@ -79,17 +78,17 @@ Plano definido pelo RPE a partir da demanda pública. **5 fases**.
 
 ### Tarefas
 
-- [ ] Redigir textos informativos sobre o NAP, serviços e formas de contato
-- [ ] Selecionar e produzir imagens e ícones que transmitam acolhimento e inclusão
-- [ ] Revisar o conteúdo com a equipe do NAP para garantir precisão
+- [ ] Redigir textos informativos sobre o NAP, serviços e formas de contato *(rascunhos no HTML; inventário em [14-conteudo-provisorio.md](14-conteudo-provisorio.md))*
+- [ ] Selecionar e produzir imagens e ícones *(pasta `img/` pronta; assets pendentes)*
+- [ ] Revisar o conteúdo com a equipe do NAP *(bloqueado: dados oficiais não fornecidos)*
 - [ ] Criar materiais de divulgação da página para a comunidade acadêmica
 
 ### Artefatos esperados
 
-- Textos finais aprovados
-- Pasta `img/` com assets
-- Contatos reais na página Contato
-- Materiais de divulgação
+- Textos finais aprovados — pendente NAP
+- Pasta `img/` com assets — pasta criada
+- Contatos reais — pendente NAP (ver [17-desbloqueio-conteudo-nap.md](17-desbloqueio-conteudo-nap.md))
+- Materiais de divulgação — pendente
 
 ---
 
@@ -99,20 +98,21 @@ Plano definido pelo RPE a partir da demanda pública. **5 fases**.
 
 ### Tarefas
 
-- [ ] Publicar a página em servidor institucional ou plataforma escolhida
-- [ ] Realizar treinamento com a equipe do NAP para atualização do conteúdo
-- [ ] Coletar feedback dos usuários por meio de formulário online
+- [ ] Publicar a página em servidor institucional ou plataforma escolhida *(guia GitHub Pages em [15-publicacao.md](15-publicacao.md); não tratar URL de rascunho como oficial)*
+- [ ] Realizar treinamento com a equipe do NAP para atualização do conteúdo *([16-guia-atualizacao-conteudo.md](16-guia-atualizacao-conteudo.md))*
+- [ ] Coletar feedback dos usuários por meio de formulário online *(placeholder Google Forms em `docs/15`)*
 - [ ] Elaborar relatório final com indicadores de acesso e sugestões de melhoria
 
 ### Artefatos esperados
 
-- URL pública
-- Guia curto de atualização de conteúdo
-- Formulário/feedback coletado
-- Relatório final
+- URL pública — pendente
+- Guia curto de atualização — feito (`docs/16`)
+- Formulário/feedback — URL a preencher
+- Relatório final — pendente
 
 ---
 
 ## Status consolidado
 
 Ver detalhamento e percentuais em [07-analise-gap.md](07-analise-gap.md).
+**Legenda:** “template pronto” ≠ tarefa de campo concluída (reunião, Figma, validação NAP).

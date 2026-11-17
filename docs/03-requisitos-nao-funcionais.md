@@ -17,15 +17,17 @@
 
 ## Detalhamento de acessibilidade (WCAG)
 
+Checklist operacional detalhado: [08-checklist-wcag.md](08-checklist-wcag.md).
+
 Checklist mínimo esperado na entrega:
 
-- [ ] Títulos (`h1`–`h3`) em hierarquia coerente
-- [ ] Skip link funcional
-- [ ] Contraste de texto/fundo suficiente (incluindo modo alto contraste)
-- [ ] Foco visível em links e botões
-- [ ] Labels/`aria-label` em controles sem texto visível suficiente
-- [ ] `aria-current` (ou equivalente) na página ativa
-- [ ] Respeito a `prefers-reduced-motion`
+- [x] Títulos (`h1`–`h3`) em hierarquia coerente *(estrutura do scaffold)*
+- [x] Skip link funcional
+- [x] Contraste de texto/fundo suficiente (incluindo modo alto contraste)
+- [x] Foco visível em links e botões
+- [x] Labels/`aria-label` em controles sem texto visível suficiente
+- [x] `aria-current` (ou equivalente) na página ativa
+- [x] Respeito a `prefers-reduced-motion`
 - [ ] Imagens com `alt` adequado (quando houver imagens)
 
 ## Detalhamento de responsividade

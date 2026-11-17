@@ -59,6 +59,6 @@ Requisitos derivados do escopo do RPE, do [`README.md`](../README.md) e das seç
 
 ## Observações
 
-- Os textos atuais em `sobre.html`, `servicos.html` e `conteudos.html` são **rascunhos** e não satisfazem sozinhos os critérios de “conteúdo validado”.
-- Contato em `contato.html` ainda usa placeholders e **não atende** RF-15.
-- Formulário de feedback (RF-16) não existe no código atual; permanece opcional até definição com o NAP/instituição.
+- Os textos atuais em `sobre.html`, `servicos.html` e `conteudos.html` são **rascunhos** e não satisfazem sozinhos os critérios de “conteúdo validado”. Inventário: [14-conteudo-provisorio.md](14-conteudo-provisorio.md).
+- Contato em `contato.html` ainda usa placeholders e **não atende** RF-15. Desbloqueio: [17-desbloqueio-conteudo-nap.md](17-desbloqueio-conteudo-nap.md).
+- Formulário de feedback (RF-16): preparado via Google Forms em [15-publicacao.md](15-publicacao.md) (URL ainda placeholder).

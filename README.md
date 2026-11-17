@@ -100,8 +100,8 @@ ProjetoDeExtensao-NAP/
 │   └── style.css
 ├── js/
 │   └── main.js
-├── docs/
-├── img/          (prevista; ainda sem assets)
+├── docs/         (requisitos, fases, checklists, templates)
+├── img/          (pasta pronta; assets de marca ainda pendentes)
 └── README.md
 ```
 
@@ -110,3 +110,8 @@ ProjetoDeExtensao-NAP/
 Basta abrir o arquivo `index.html` em qualquer navegador. Não há dependências para instalar.
 
 Documentação de requisitos e acompanhamento: pasta [`docs/`](docs/).
+
+## Publicação (preview)
+
+Instruções para GitHub Pages e formulário de feedback: [`docs/15-publicacao.md`](docs/15-publicacao.md).  
+Enquanto o NAP não validar contatos e textos, tratar qualquer URL pública como **preview**, não como página oficial ([`docs/17-desbloqueio-conteudo-nap.md`](docs/17-desbloqueio-conteudo-nap.md)).

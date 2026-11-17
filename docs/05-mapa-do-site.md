@@ -69,6 +69,8 @@ nap-site/
 
 ## Prototipação (Fase 2)
 
+Registro de wireframes, link do Figma e validação: [13-design-figma.md](13-design-figma.md).
+
 - Wireframes: Home, Sobre, Serviços, Contato (e Conteúdos).
-- Protótipo de alta fidelidade: Figma (a registrar link/arquivo quando disponível).
+- Protótipo de alta fidelidade: Figma (colar URL em `docs/13`).
 - Validação: equipe do NAP + amostra de estudantes.
